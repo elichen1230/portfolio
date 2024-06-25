@@ -50,7 +50,7 @@ function Projects() {
         " An Android Studio mobile game created for players to explore procedurally generated dungeons and engage in turn-based battles.",
       tags: ["Android Studio", "Java", "Agile"],
       icon: "link-to-icon",
-      stars: 621,
+      stars: null,
       url: "https://github.com/arinkhanna/CS2340C_Team55",
     },
     {
@@ -59,7 +59,7 @@ function Projects() {
         "Developed and maintained a Discord bot for the GT Esports team and also used to organize events for the club.",
       tags: ["Discord API"],
       icon: "link-to-icon",
-      stars: "100k+ Installs",
+      stars: null,
       url: "https://github.com/gt-esports/gtesports-website",
     },
     {
