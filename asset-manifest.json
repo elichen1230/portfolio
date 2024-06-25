@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.a1c865f4.css",
-    "main.js": "/static/js/main.3521fb0f.js",
-    "static/media/headshot.png": "/static/media/headshot.b1b0d64a70977b5207a8.png",
-    "index.html": "/index.html",
-    "main.a1c865f4.css.map": "/static/css/main.a1c865f4.css.map",
-    "main.3521fb0f.js.map": "/static/js/main.3521fb0f.js.map"
+    "main.css": "/elichenPortfolio.github.io/static/css/main.a1c865f4.css",
+    "main.js": "/elichenPortfolio.github.io/static/js/main.c958f76a.js",
+    "static/media/headshot.png": "/elichenPortfolio.github.io/static/media/headshot.b1b0d64a70977b5207a8.png",
+    "index.html": "/elichenPortfolio.github.io/index.html",
+    "main.a1c865f4.css.map": "/elichenPortfolio.github.io/static/css/main.a1c865f4.css.map",
+    "main.c958f76a.js.map": "/elichenPortfolio.github.io/static/js/main.c958f76a.js.map"
   },
   "entrypoints": [
     "static/css/main.a1c865f4.css",
-    "static/js/main.3521fb0f.js"
+    "static/js/main.c958f76a.js"
   ]
 }
