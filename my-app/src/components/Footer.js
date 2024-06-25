@@ -34,7 +34,7 @@ function Footer() {
         </p>
       </div>
       <div>
-        <p className="visitor-count">👀 : {visitorCount.toLocaleString()}</p>
+        {/* <p className="visitor-count">👀 : {visitorCount.toLocaleString()}</p> */}
       </div>
     </footer>
   );
