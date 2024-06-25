@@ -1,0 +1,67 @@
+/*style.css*/
+nav {
+  background-color: #1d3557;
+  color: #f1faee; /* Dark grey text color */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Modern, clean font */
+  font-size: 22px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: flex-end; /* Right alignment */
+  position: fixed; /* Fixed positioning */
+  top: 0px; /* Position at the top of the viewport */
+  right: 0px; /* Adjust as needed */
+  flex-direction: row; /* Row layout */
+  width: 100%; /* Full width */
+  z-index: 1000; /* Ensure it's above other content */
+  align-items: center; /* Center items vertically */
+  height: 60px; /* New height for the navbar */
+  padding-right: 40px; /* Reduce padding to make room for elements */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Flex container for list items */
+}
+
+nav ul li {
+  margin-left: 20px; /* Space between items */
+  display: inline; /* Inline display */
+  cursor: pointer; /* Ensure cursor is a pointer for list items */
+}
+
+nav ul li a {
+  color: #f2f2f8a7; /* Dark grey text color */
+  text-decoration: none;
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+/* Hide the navigation bar */
+.nav-hidden {
+  transform: translateY(-160%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.3s ease-in;
+}
+.resume-button {
+  color: #c8c8d8;
+  border: none;
+  text-decoration: none;
+  margin-right: 20px; /* Space between the button and the rest of the nav content */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.resume-button::after {
+  content: "";
+  display: inline-block;
+  height: 80%; /* Adjust based on desired line height */
+  width: 2px; /* Width of the line */
+  background-color: #c8c8d8; /* Color of the line, match your design */
+  margin-left: 20px; /* Space between the button and the line */
+  vertical-align: middle; /* Aligns the line with the text */
+}
